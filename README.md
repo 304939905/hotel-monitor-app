@@ -293,6 +293,7 @@ build/app/outputs/flutter-apk/app-debug.apk
 - [发布与附件规范](docs/RELEASE_POLICY.md)
 - [冻结版本索引](docs/BACKUP_INDEX.md)
 - [资料总索引](docs/README.md)
+- [v1.0.0 发布说明](docs/releases/v1.0.0.md)
 
 ## 使用边界
 
