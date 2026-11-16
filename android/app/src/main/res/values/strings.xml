@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">酒店监控</string>
+    <string name="accessibility_service_description">用于按你的指令打开旅行平台、核对目标酒店并保存包含房价的真实页面截图</string>
+</resources>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="1120" viewBox="0 0 540 1120">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#173B4A" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; fill: #17262D; }
+      .muted { fill: #667A84; }
+      .small { font-size: 12px; }
+      .label { font-size: 14px; font-weight: 600; }
+      .title { font-size: 22px; font-weight: 700; }
+      .white { fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect width="540" height="1120" fill="#F4F7F9"/>
+  <rect width="540" height="28" fill="#FFFFFF"/>
+  <text x="22" y="19" font-size="12" font-weight="600">9:41</text>
+  <g transform="translate(470,9)" fill="#21343D">
+    <rect x="0" y="7" width="3" height="6" rx="1"/>
+    <rect x="5" y="5" width="3" height="8" rx="1"/>
+    <rect x="10" y="3" width="3" height="10" rx="1"/>
+    <path d="M21 8 q7-8 14 0 l-2 2 q-5-5-10 0z"/>
+    <rect x="40" y="3" width="20" height="10" rx="3" fill="none" stroke="#21343D" stroke-width="2"/>
+    <rect x="42" y="5" width="14" height="6" rx="1"/>
+    <rect x="61" y="6" width="2" height="4" rx="1"/>
+  </g>
+
+  <rect y="28" width="540" height="64" fill="#FFFFFF"/>
+  <text x="24" y="68" class="title">酒店监控</text>
+  <circle cx="498" cy="60" r="19" fill="#E7F1F4"/>
+  <path d="M498 51 v18 M489 60 h18" stroke="#176B87" stroke-width="2.6" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="20" y="108" width="500" height="102" rx="18" fill="#FFFFFF"/>
+  </g>
+  <circle cx="52" cy="141" r="18" fill="#E9F8EF"/>
+  <path d="M44 141 l6 6 11-13" fill="none" stroke="#2F9B5B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82" y="137" font-size="17" font-weight="700">手机自动化</text>
+  <text x="82" y="162" class="label" fill="#2F7D50">无障碍权限已开启</text>
+  <rect x="382" y="129" width="116" height="40" rx="20" fill="#F3F7F8" stroke="#D5E1E5"/>
+  <text x="440" y="154" class="label" text-anchor="middle" fill="#47616D">权限设置</text>
+  <text x="28" y="198" class="small muted">自动查价所需权限状态正常</text>
+
+  <text x="22" y="250" font-size="21" font-weight="700">我的监控项目</text>
+  <rect x="452" y="221" width="66" height="40" rx="12" fill="#FFFFFF" stroke="#D3DEE2"/>
+  <text x="485" y="247" class="label" text-anchor="middle" fill="#5F737C">清除</text>
+
+  <g filter="url(#shadow)">
+    <rect x="20" y="278" width="500" height="105" rx="18" fill="#FFFFFF"/>
+  </g>
+  <rect x="34" y="291" width="472" height="56" rx="16" fill="#E7F1F4" stroke="#BFD4DC"/>
+  <path d="M166 305 h18 v18 h-18z M170 309 h10 M170 314 h10 M170 319 h7" fill="none" stroke="#176B87" stroke-width="2" stroke-linecap="round"/>
+  <text x="282" y="326" font-size="17" font-weight="700" text-anchor="middle" fill="#176B87">总 · 查看全部结果</text>
+  <text x="270" y="370" class="small muted" text-anchor="middle">集中查看所有项目的当前截图</text>
+
+  <g filter="url(#shadow)">
+    <rect x="20" y="395" width="500" height="105" rx="18" fill="#FFFFFF"/>
+  </g>
+  <rect x="34" y="408" width="472" height="56" rx="16" fill="#176B87"/>
+  <path d="M166 426 q0-9 8-9 q8 0 8 9 v8 l4 5 h-24 l4-5z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="174" cy="443" r="2.5" fill="#FFFFFF"/>
+  <text x="282" y="443" font-size="17" font-weight="700" text-anchor="middle" class="white">全 · 采集所有项目</text>
+  <text x="270" y="487" class="small muted" text-anchor="middle">点击后确认 · 长按可更换完成铃声</text>
+
+  <text x="22" y="531" class="small muted">点击项目查看当次采集截图和上一次历史</text>
+
+  <g transform="translate(20,550)" filter="url(#shadow)">
+    <rect width="500" height="126" rx="17" fill="#FFFFFF"/>
+    <rect x="15" y="18" width="54" height="54" rx="15" fill="#E7F1F4"/>
+    <path d="M29 58 v-22 h26 v22 M35 36 v-8 h14 v8 M35 44 h4 M45 44 h4 M35 51 h4 M45 51 h4" fill="none" stroke="#176B87" stroke-width="2" stroke-linecap="round"/>
+    <text x="84" y="37" font-size="17" font-weight="700">赤雅楼</text>
+    <text x="84" y="60" class="small muted">开远 · 主体：赤雅楼酒店</text>
+    <text x="84" y="82" class="small muted">今日查看：1 次</text>
+    <rect x="84" y="94" width="48" height="22" rx="7" fill="#FFF1E7"/>
+    <text x="108" y="109" class="small" text-anchor="middle" fill="#C95812">美团</text>
+    <rect x="139" y="94" width="48" height="22" rx="7" fill="#E9F2FF"/>
+    <text x="163" y="109" class="small" text-anchor="middle" fill="#1769D2">携程</text>
+    <text x="474" y="38" font-size="22" fill="#71858E">•••</text>
+  </g>
+
+  <g transform="translate(20,690)" filter="url(#shadow)">
+    <rect width="500" height="126" rx="17" fill="#FFFFFF"/>
+    <rect x="15" y="18" width="54" height="54" rx="15" fill="#E7F1F4"/>
+    <path d="M29 58 v-22 h26 v22 M35 36 v-8 h14 v8 M35 44 h4 M45 44 h4 M35 51 h4 M45 51 h4" fill="none" stroke="#176B87" stroke-width="2"/>
+    <text x="84" y="37" font-size="17" font-weight="700">1</text>
+    <text x="84" y="60" class="small muted">成都 · 主体：成都万达瑞华酒店</text>
+    <text x="84" y="82" class="small muted">今日查看：0 次</text>
+    <rect x="84" y="94" width="48" height="22" rx="7" fill="#FFF1E7"/>
+    <text x="108" y="109" class="small" text-anchor="middle" fill="#C95812">美团</text>
+    <rect x="139" y="94" width="48" height="22" rx="7" fill="#E9F2FF"/>
+    <text x="163" y="109" class="small" text-anchor="middle" fill="#1769D2">携程</text>
+    <text x="474" y="38" font-size="22" fill="#71858E">•••</text>
+  </g>
+
+  <g transform="translate(20,830)" filter="url(#shadow)">
+    <rect width="500" height="126" rx="17" fill="#FFFFFF"/>
+    <rect x="15" y="18" width="54" height="54" rx="15" fill="#E7F1F4"/>
+    <path d="M29 58 v-22 h26 v22 M35 36 v-8 h14 v8 M35 44 h4 M45 44 h4 M35 51 h4 M45 51 h4" fill="none" stroke="#176B87" stroke-width="2"/>
+    <text x="84" y="37" font-size="17" font-weight="700">2</text>
+    <text x="84" y="60" class="small muted">成都 · 主体：美团单平台酒店</text>
+    <text x="84" y="82" class="small muted">今日查看：0 次</text>
+    <rect x="84" y="94" width="48" height="22" rx="7" fill="#FFF1E7"/>
+    <text x="108" y="109" class="small" text-anchor="middle" fill="#C95812">美团</text>
+    <rect x="139" y="94" width="60" height="22" rx="7" fill="#F1F3F4"/>
+    <text x="169" y="109" class="small" text-anchor="middle" fill="#87969D">携程未选</text>
+    <text x="474" y="38" font-size="22" fill="#71858E">•••</text>
+  </g>
+
+  <g transform="translate(20,970)" filter="url(#shadow)">
+    <rect width="500" height="126" rx="17" fill="#FFFFFF"/>
+    <rect x="15" y="18" width="54" height="54" rx="15" fill="#E7F1F4"/>
+    <path d="M29 58 v-22 h26 v22 M35 36 v-8 h14 v8 M35 44 h4 M45 44 h4 M35 51 h4 M45 51 h4" fill="none" stroke="#176B87" stroke-width="2"/>
+    <text x="84" y="37" font-size="17" font-weight="700">3</text>
+    <text x="84" y="60" class="small muted">成都 · 主体：携程单平台酒店</text>
+    <text x="84" y="82" class="small muted">今日查看：0 次</text>
+    <rect x="84" y="94" width="60" height="22" rx="7" fill="#F1F3F4"/>
+    <text x="114" y="109" class="small" text-anchor="middle" fill="#87969D">美团未选</text>
+    <rect x="151" y="94" width="48" height="22" rx="7" fill="#E9F2FF"/>
+    <text x="175" y="109" class="small" text-anchor="middle" fill="#1769D2">携程</text>
+    <text x="474" y="38" font-size="22" fill="#71858E">•••</text>
+  </g>
+
+  <rect y="1000" width="540" height="120" fill="url(#fade)" opacity="0"/>
+  <g filter="url(#shadow)">
+    <rect x="365" y="1036" width="153" height="58" rx="18" fill="#176B87"/>
+  </g>
+  <path d="M391 1056 v18 M382 1065 h18" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="457" y="1072" class="label white" text-anchor="middle">新增项目</text>
+</svg>
